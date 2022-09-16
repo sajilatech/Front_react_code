@@ -1,0 +1,204 @@
+/*********************************************************************************/
+/* Basic                                                                         */
+/*********************************************************************************/
+
+	body
+	{
+		line-height: 1.75em;
+		font-size: 10pt;
+		letter-spacing: 0;
+	}
+
+	
+.container{
+	width: 90% !important;
+}
+
+	
+/*********************************************************************************/
+/* Wrappers                                                                      */
+/*********************************************************************************/
+
+	
+	
+	#main-wrapper{
+		padding: 30px 0px;
+		margin: 0px;
+		float:left;
+		width:100%;
+	}
+	
+
+
+
+		
+
+
+
+/*********************************************************************************/
+/* Content                                                                       */
+/*********************************************************************************/
+
+.filtercontent{
+	width:100%;
+	height:auto;
+	float:left;
+	border-bottom:1px dotted #999;
+	padding:7px 0px 7px 0px;
+	margin:0px 0px 20px 0px;
+	color:#000;
+	font-family: 'Open Sans', sans-serif;
+	font-weight:400;
+	font-size:11px;
+	text-align:left;
+	line-height:15px;
+}
+
+
+.sort{
+	float:right;
+	width:auto;
+	padding:0px 0px  0px 10px;
+	text-align:right;
+	line-height:15px;
+	color:#000;
+	font-family: 'Open Sans', sans-serif;
+	font-weight:400;
+	font-size:11px;
+}
+.sortbox{
+	padding:5px;
+	font-size:11px;
+	font-weight: 400;
+	text-align: left;
+	line-height: 18px;
+	border: #999 1px solid;
+	outline: 0px;
+	background: #fff;
+	
+}
+.searchbtn{
+	width: auto;
+	margin: 0px;
+	padding: 6px;
+	font-size:11px;
+	font-weight: 400;
+	text-align: center;
+	line-height: 18px;
+	background: #999;
+	color: #fff;
+	border: 0px;
+	outline: 0px;
+	cursor: pointer;
+}
+
+	
+
+.btn-icon2 {
+  display: inline-block;
+  position: relative;
+	background: #999;
+}
+
+
+.btn-icon2::before {
+  font-family: 'FontAwesome';
+	cursor: pointer;
+	content:"\f002";
+	color: #fff;
+	font-size: 120%;
+	vertical-align: middle;
+	padding-left: 10px;
+	padding-top: 4px;
+	line-height: 20px;
+	float: left;
+
+}
+
+.scrollwrap{
+	width:100%;
+	height:auto;
+	float:left;
+	margin:0px 0px 0px 0px;
+}
+
+
+.listbox{
+
+	width: 100%;
+	margin: 0px;
+	background: #fff;
+	float: left;
+	font-family: 'Poppins';
+padding: 10px 5px 0px 5px;
+margin-bottom: 50px;
+	text-align: center;
+	color: #333;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 21px;
+
+	-webkit-transition: all .3s ease-in-out;
+
+	-moz-transition: all .3s ease-in-out;
+
+	-ms-transition: all .3s ease-in-out;
+
+	-o-transition: all .3s ease-in-out;
+
+	transition: all .3s ease-in-out;
+
+}
+
+
+.listbox img{
+	width: 100%;
+	margin: 0px;
+	float: left;
+}
+.listbox h4 {
+    float: left;
+    width: 100%;
+	font-family: 'Poppins';
+    text-align: left;
+	font-size: 14px;
+	line-height: 20px;
+	font-weight:600;
+	color: #707070;
+}
+.listbox h5 {
+    float: left;
+    width: 100%;
+	font-family: 'Poppins';
+    text-align: left;
+    margin-bottom: 10px;
+	font-size: 17px;
+	line-height: 21px;
+	font-weight: 600;
+	color: #000;
+}
+.listbox h5  b{
+	color: #707070;
+	font-weight: 500;
+	font-size: 14px;
+}
+.listbtn {
+    font-family: 'Poppins';
+    font-size: 17px;
+	font-weight: 600;
+	line-height: 18px;
+    color: #326bb4;
+	text-transform: uppercase;
+    padding: 15px 25px;
+    letter-spacing: 0px;
+    margin: 20px auto 0px auto;
+    display: inline-block;
+	background: url("../images/chevron-small.svg") no-repeat right;
+	background-size: 15px;
+}
+
+.listbtn:hover {
+}
+
+.owl-carousel .owl-nav .owl-prev{position: absolute; right: 12%; }
+
